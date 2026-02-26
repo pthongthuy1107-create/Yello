@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772114256427,
+  "projectRoot": "/Users/triet/Desktop/Code/Ne/Yello",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 2,
+      "lastAccessed": 1772114256406,
+      "keyFiles": [
+        "FEATURES_CHECKLIST.md",
+        "PROJECT_SUMMARY.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "docs/PROJECT_SUMMARY.md",
+      "accessCount": 1,
+      "lastAccessed": 1772114371847,
+      "type": "file"
+    },
+    {
+      "path": "docs/MVP_CHECKLIST.md",
+      "accessCount": 1,
+      "lastAccessed": 1772114482743,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
