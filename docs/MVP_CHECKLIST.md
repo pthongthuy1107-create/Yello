@@ -8,7 +8,7 @@
 
 ## Legend
 - [ ] Chưa làm
-- [x] Hoàn thành
+- [x] Hoàn thành  
 - [~] Đang làm / Có vấn đề
 
 ---
