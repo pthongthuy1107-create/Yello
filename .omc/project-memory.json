@@ -48,9 +48,69 @@
   },
   "hotPaths": [
     {
+      "path": "sprints/sprint-09/requirements.md",
+      "accessCount": 3,
+      "lastAccessed": 1772355716349,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-258-admin-business-review-modal-ui.feature",
+      "accessCount": 3,
+      "lastAccessed": 1772357830462,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-276-admin-business-review-modal-api.feature",
+      "accessCount": 2,
+      "lastAccessed": 1772357863161,
+      "type": "file"
+    },
+    {
       "path": "docs/MVP_CHECKLIST.md",
       "accessCount": 1,
       "lastAccessed": 1772351966076,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/confirm-log.md",
+      "accessCount": 1,
+      "lastAccessed": 1772354864159,
+      "type": "file"
+    },
+    {
+      "path": ".mcp.json",
+      "accessCount": 1,
+      "lastAccessed": 1772355231780,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-135-view-all-reviews-ui.feature",
+      "accessCount": 1,
+      "lastAccessed": 1772355853682,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-271-view-all-reviews-api.feature",
+      "accessCount": 1,
+      "lastAccessed": 1772355874394,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-270-create-review-ui.feature",
+      "accessCount": 1,
+      "lastAccessed": 1772355912677,
+      "type": "file"
+    },
+    {
+      "path": "sprints/sprint-09/features/HYP-272-create-review-api.feature",
+      "accessCount": 1,
+      "lastAccessed": 1772355970456,
+      "type": "file"
+    },
+    {
+      "path": "docs/qa-workflow.md",
+      "accessCount": 1,
+      "lastAccessed": 1772356936192,
       "type": "file"
     }
   ],

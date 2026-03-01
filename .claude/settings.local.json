@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__linear__list_projects",
+      "mcp__linear__list_issues",
+      "mcp__linear__get_project",
+      "mcp__linear__get_issue",
+      "mcp__figma-desktop__get_metadata",
+      "mcp__figma-desktop__get_design_context",
+      "mcp__figma-desktop__get_screenshot"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "linear",
+    "figma-desktop"
+  ]
+}
