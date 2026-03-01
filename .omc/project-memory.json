@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772114256427,
+  "lastScanned": 1772347140620,
   "projectRoot": "/Users/triet/Desktop/Code/Ne/Yello",
   "techStack": {
     "languages": [],
@@ -27,32 +27,30 @@
     "mainDirectories": [
       "docs"
     ],
-    "gitBranches": null
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
   },
   "customNotes": [],
   "directoryMap": {
     "docs": {
       "path": "docs",
       "purpose": "Documentation",
-      "fileCount": 2,
-      "lastAccessed": 1772114256406,
+      "fileCount": 3,
+      "lastAccessed": 1772347140596,
       "keyFiles": [
         "FEATURES_CHECKLIST.md",
+        "MVP_CHECKLIST.md",
         "PROJECT_SUMMARY.md"
       ]
     }
   },
   "hotPaths": [
     {
-      "path": "docs/PROJECT_SUMMARY.md",
-      "accessCount": 1,
-      "lastAccessed": 1772114371847,
-      "type": "file"
-    },
-    {
       "path": "docs/MVP_CHECKLIST.md",
       "accessCount": 1,
-      "lastAccessed": 1772114482743,
+      "lastAccessed": 1772351966076,
       "type": "file"
     }
   ],

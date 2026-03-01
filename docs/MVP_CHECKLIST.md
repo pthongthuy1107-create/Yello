@@ -93,7 +93,7 @@
 #### 3.1 BusinessDetailScreen
 - [ ] Hero image
 - [ ] Thông tin: tên, rating, số review, khoảng cách, danh mục
-- [ ] Địa chỉ (nút mở Maps) + số điện thoại (nút gọi)
+- [ ] Địa chỉ (nút mở Maps) + số điện thoại (nút gọi) + tin nhắn ("message" button để mở vào cuộc trò chuyện)
 - [ ] Lịch làm việc
 - [ ] Phần Giới thiệu (About)
 - [ ] Gallery ảnh (cuộn ngang + xem tất cả)
@@ -122,7 +122,8 @@
 #### 4.1 ProviderHomeScreen (Dashboard)
 - [ ] ServiceCard: thông tin doanh nghiệp + trạng thái
 - [ ] LastMessagesSection: tin nhắn gần đây từ khách hàng
-- [ ] Popular Now: đề xuất doanh nghiệp cùng ngành
+- [ ] Competitors near you: đề xuất doanh nghiệp đối thủ cùng ngành (provider đã và đang đăng ký business)
+- [ ] Businesses near you: đề xuất doanh nghiệp gần đây (provider chưa đăng ký business)
 
 #### 4.2 BusinessRegisterScreen
 - [ ] Section 1 - Profile: Tên doanh nghiệp + upload avatar
@@ -170,7 +171,7 @@
 
 ### 7. Authentication & Authorization
 
-- [ ] **Login** - Đăng nhập bằng email/password
+- [ ] **Login** - Đăng nhập bằng email or Username/password
 - [ ] **Logout** - Đăng xuất và xóa session
 - [ ] **JWT Authentication** - Xác thực bằng token
 - [ ] **Protected Routes** - AuthGuard bảo vệ các route
@@ -212,7 +213,7 @@
 
 #### 9.2 Danh sách thông báo
 - [ ] Bảng xem tất cả thông báo
-- [ ] Lọc theo tab (All, Active, Archived)
+- [ ] Lọc theo tab (All, Businesses, Customers, Providers)
 - [ ] Tìm kiếm theo tiêu đề hoặc nội dung
 - [ ] Sắp xếp theo cột
 - [ ] Hành động Archive thông báo
@@ -233,7 +234,7 @@
 #### 10.1 Quản lý Businesses
 - [ ] Bảng xem tất cả doanh nghiệp
 - [ ] Tìm kiếm theo tên hoặc ID
-- [ ] Sắp xếp theo cột (ID, tên, trạng thái, ngày)
+- [ ] Sắp xếp theo cột (tên, ID, Category, Rating, Ngày đăng ký, trạng thái)
 - [ ] Lọc theo trạng thái
 - [ ] Expandable rows xem chi tiết
 - [ ] Phân trang + chọn số mục/trang
@@ -243,7 +244,6 @@
 - [ ] Optimistic UI + rollback khi lỗi
 - [ ] Xem tổng số reviews (clickable)
 - [ ] Thời gian hoạt động cuối cùng
-- [ ] Nút xem profile chi tiết
 
 #### 10.2 Business Reviews (Modal)
 - [ ] Xem tất cả reviews của doanh nghiệp
@@ -256,6 +256,7 @@
 - [ ] Phân trang reviews
 - [ ] Empty state
 
+<!-- TODO: Will countinue edit from here-->
 #### 10.3 Business Metrics
 - [ ] Tổng số doanh nghiệp
 - [ ] Số doanh nghiệp đang hoạt động
