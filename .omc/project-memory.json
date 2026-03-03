@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772347140620,
+  "lastScanned": 1772547313899,
   "projectRoot": "/Users/triet/Desktop/Code/Ne/Yello",
   "techStack": {
     "languages": [],
@@ -37,80 +37,34 @@
     "docs": {
       "path": "docs",
       "purpose": "Documentation",
-      "fileCount": 3,
-      "lastAccessed": 1772347140596,
+      "fileCount": 4,
+      "lastAccessed": 1772547313837,
       "keyFiles": [
         "FEATURES_CHECKLIST.md",
         "MVP_CHECKLIST.md",
-        "PROJECT_SUMMARY.md"
+        "PROJECT_SUMMARY.md",
+        "qa-workflow.md"
       ]
+    },
+    "sprints": {
+      "path": "sprints",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1772547313837,
+      "keyFiles": []
     }
   },
   "hotPaths": [
     {
-      "path": "sprints/sprint-09/requirements.md",
-      "accessCount": 3,
-      "lastAccessed": 1772355716349,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-258-admin-business-review-modal-ui.feature",
-      "accessCount": 3,
-      "lastAccessed": 1772357830462,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-276-admin-business-review-modal-api.feature",
-      "accessCount": 2,
-      "lastAccessed": 1772357863161,
-      "type": "file"
-    },
-    {
-      "path": "docs/MVP_CHECKLIST.md",
+      "path": "history/2026-03-03-daily-report/report.md",
       "accessCount": 1,
-      "lastAccessed": 1772351966076,
+      "lastAccessed": 1772551465396,
       "type": "file"
     },
     {
-      "path": "sprints/sprint-09/confirm-log.md",
+      "path": "history/2026-03-03-daily-goals/report.md",
       "accessCount": 1,
-      "lastAccessed": 1772354864159,
-      "type": "file"
-    },
-    {
-      "path": ".mcp.json",
-      "accessCount": 1,
-      "lastAccessed": 1772355231780,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-135-view-all-reviews-ui.feature",
-      "accessCount": 1,
-      "lastAccessed": 1772355853682,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-271-view-all-reviews-api.feature",
-      "accessCount": 1,
-      "lastAccessed": 1772355874394,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-270-create-review-ui.feature",
-      "accessCount": 1,
-      "lastAccessed": 1772355912677,
-      "type": "file"
-    },
-    {
-      "path": "sprints/sprint-09/features/HYP-272-create-review-api.feature",
-      "accessCount": 1,
-      "lastAccessed": 1772355970456,
-      "type": "file"
-    },
-    {
-      "path": "docs/qa-workflow.md",
-      "accessCount": 1,
-      "lastAccessed": 1772356936192,
+      "lastAccessed": 1772551827450,
       "type": "file"
     }
   ],
