@@ -56,6 +56,12 @@
   },
   "hotPaths": [
     {
+      "path": "CLAUDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1772588693930,
+      "type": "file"
+    },
+    {
       "path": "history/2026-03-03-daily-report/report.md",
       "accessCount": 1,
       "lastAccessed": 1772551465396,
@@ -65,6 +71,12 @@
       "path": "history/2026-03-03-daily-goals/report.md",
       "accessCount": 1,
       "lastAccessed": 1772551827450,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/save-daily/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1772588661755,
       "type": "file"
     }
   ],

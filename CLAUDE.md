@@ -23,6 +23,16 @@ Khi tạo hoặc cập nhật `test-cases.md`, Claude **BẮT BUỘC** sử dụ
 |:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | 4 | HYP-169 | Notification | UI/UX | | Verify the default UI... | | | | | | The Notifications tab is correctly highlighted... | | | | Medium | Web | Admin | | |
 
+## 📅 Daily History Convention
+Khi lưu file từ `hd-daily-goals` hoặc `hd-daily-report`, **BẮT BUỘC** dùng cấu trúc sau:
+```
+history/YYYY-MM-DD/
+    goal.md    ← từ hd-daily-goals
+    report.md  ← từ hd-daily-report
+```
+- Tạo thư mục `history/{DATE}/` nếu chưa có.
+- **Không dùng** tên thư mục dạng `YYYY-MM-DD-daily-goals/` hay `YYYY-MM-DD-daily-report/`.
+
 ## 🤖 Interaction Workflow
 1. **Fetch:** Claude dùng MCP lấy data từ Ticket ID (ví dụ: `HYP-169`) và link Figma liên quan.
 2. **Draft:** Điền thông tin vào bảng trên. Lưu ý:
