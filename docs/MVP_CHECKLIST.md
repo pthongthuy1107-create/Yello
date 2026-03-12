@@ -8,7 +8,7 @@
 
 ## Legend
 - [ ] Chưa làm
-- [x] Hoàn thành  
+- [x] Hoàn thành
 - [~] Đang làm / Có vấn đề
 
 ---
@@ -17,153 +17,152 @@
 
 ### 1. Authentication & Onboarding
 
-- [ ] **SplashScreen** - Khởi tạo app, logic auto-login
-- [ ] **ChooseRoleScreen** - Chọn vai trò Customer hoặc Provider
-- [ ] **OnboardingScreen** - 3 slide giới thiệu (carousel + pagination dots)
-- [ ] **SignInScreen** - Đăng nhập email/password
-- [ ] **SignInScreen** - Link quên mật khẩu
-- [ ] **SignInScreen** - Modal xác nhận tài khoản
-- [ ] **SignUpScreen - Bước 1** - Nhập thông tin cá nhân
-- [ ] **SignUpScreen - Bước 2** - Đặt mật khẩu
-- [ ] **SignUpScreen - Bước 3** - Xác minh OTP email
-- [ ] **ForgotPasswordScreen** - Chọn phương thức khôi phục (email/phone)
-- [ ] **ForgotPasswordScreen** - Màn hình đặt lại mật khẩu
-- [ ] **ForgotPasswordScreen** - Màn hình thành công
+- [x] **SplashScreen** - Khởi tạo app, logic auto-login
+- [x] **ChooseRoleScreen** - Chọn vai trò Customer hoặc Provider
+- [x] **OnboardingScreen** - 3 slide giới thiệu (carousel + pagination dots)
+- [x] **SignInScreen** - Đăng nhập email/password
+- [x] **SignInScreen** - Link quên mật khẩu
+- [x] **SignInScreen** - Modal xác nhận tài khoản
+- [x] **SignUpScreen - Bước 1** - Nhập thông tin cá nhân
+- [x] **SignUpScreen - Bước 2** - Đặt mật khẩu
+- [x] **SignUpScreen - Bước 3** - Xác minh OTP email
+- [~] **ForgotPasswordScreen** - Chọn phương thức khôi phục (email/phone)
+- [x] **ForgotPasswordScreen** - Màn hình đặt lại mật khẩu
+- [x] **ForgotPasswordScreen** - Màn hình thành công
 
 ---
 
 ### 2. Customer - Màn hình chính
 
 #### 2.1 HomeScreen
-- [ ] Header hiển thị vị trí người dùng + nút thông báo
-- [ ] Search bar
-- [ ] Section "Nearby Businesses" (doanh nghiệp gần đây)
-- [ ] Section "Categories" (danh mục dịch vụ - carousel)
-- [ ] Section "Popular Now" (doanh nghiệp nổi bật)
+- [x] Header hiển thị vị trí người dùng + nút thông báo
+- [x] Search bar
+- [x] Section "Nearby Businesses" (doanh nghiệp gần đây)
+- [x] Section "Categories" (danh mục dịch vụ - carousel)
+- [x] Section "Popular Now" (doanh nghiệp nổi bật)
 
 #### 2.2 NearMeScreen - Map Mode
-- [ ] Google Maps với markers doanh nghiệp
-- [ ] Marker clustering
-- [ ] Popup chi tiết khi nhấn marker
-- [ ] Nút "Search This Area" sau khi pan bản đồ
-- [ ] Nút "My Location" quay về vị trí hiện tại
-- [ ] Xử lý quyền truy cập vị trí
+- [x] Google Maps với markers doanh nghiệp
+- [x] Marker clustering
+- [x] Popup chi tiết khi nhấn marker
+- [x] Nút "Search This Area" sau khi filter bản đồ
+- [x] Nút "My Location" quay về vị trí hiện tại
+- [x] Xử lý quyền truy cập vị trí
 
 #### 2.3 NearMeScreen - List Mode
-- [ ] Danh sách doanh nghiệp dạng bảng
-- [ ] Location picker modal (chọn khu vực tìm kiếm)
-- [ ] Bộ lọc & sắp xếp (persistent giữa các tab)
+- [x] Danh sách doanh nghiệp dạng list
+- [x] Location picker modal (chọn khu vực tìm kiếm)
+- [x] Bộ lọc & sắp xếp (persistent giữa các tab)
 - [ ] Recent search dropdown
-- [ ] Chuyển đổi View (Map ↔ List)
+- [x] Chuyển đổi View (Map ↔ List)
 
 #### 2.4 SearchScreen
-- [ ] Thanh tìm kiếm với autocomplete suggestions
-- [ ] Lịch sử tìm kiếm gần đây (có thể xóa từng mục)
-- [ ] Dịch vụ được đề xuất theo danh mục
-- [ ] Kết quả tìm kiếm với infinite scroll pagination
-- [ ] **FiltersModal** - Lọc theo Category, Subcategory, Distance, Available Time
-- [ ] **SortModal** - Sắp xếp theo Rating / Distance / Name / Newest
-- [ ] Empty state khi không có kết quả
+- [x] Thanh tìm kiếm với autocomplete suggestions
+- [x] Lịch sử tìm kiếm gần đây (có thể xóa từng mục)
+- [x] Dịch vụ được đề xuất theo danh mục
+- [x] Kết quả tìm kiếm với infinite scroll pagination
+- [x] **FiltersModal** - Lọc theo Category, Subcategory, Distance, Available Time
+- [x] **SortModal** - Sắp xếp theo Nearest / Newest
+- [x] Empty state khi không có kết quả
 
 #### 2.5 MessagesScreen
-- [ ] Danh sách cuộc hội thoại
-- [ ] Tìm kiếm/lọc conversations
-- [ ] Hiển thị tin nhắn cuối, trạng thái chưa đọc, timestamp
-- [ ] Pull-to-refresh + infinite scroll
+- [x] Danh sách cuộc hội thoại
+- [x] Tìm kiếm/lọc conversations
+- [x] Hiển thị tin nhắn cuối, trạng thái chưa đọc, timestamp
+- [x] Pull-to-refresh + infinite scroll
 
 #### 2.6 MessageDetailScreen (Chat)
-- [ ] Chat real-time với Socket.io
-- [ ] Message bubbles (gửi/nhận + trạng thái)
-- [ ] Typing indicators
-- [ ] Input gửi tin nhắn
-- [ ] Retry khi gửi thất bại
-- [ ] Infinite scroll tải tin nhắn cũ
+- [x] Chat real-time với Socket.io
+- [x] Message bubbles (gửi/nhận + trạng thái)
+- [x] Typing indicators
+- [x] Input gửi tin nhắn
+- [x] Retry khi gửi thất bại
+- [x] Infinite scroll tải tin nhắn cũ
 
 #### 2.7 ProfileScreen (Customer)
-- [ ] Avatar (chỉnh sửa qua camera/gallery)
-- [ ] Thông tin: tên, email, số điện thoại
-- [ ] Menu: Account Settings, Password Settings, Notification Preferences, Help & Support
-- [ ] Terms & Privacy (WebView modal)
-- [ ] Đăng xuất với confirmation modal
+- [x] Avatar (chỉnh sửa qua camera/gallery)
+- [x] Thông tin: tên
+- [x] Menu: Account Settings, Password Settings, Notification Preferences, Help & Support
+- [x] Terms & Privacy (WebView modal)
+- [x] Đăng xuất với confirmation modal
 
 ---
 
 ### 3. Business Detail & Reviews
 
 #### 3.1 BusinessDetailScreen
-- [ ] Hero image
-- [ ] Thông tin: tên, rating, số review, khoảng cách, danh mục
-- [ ] Địa chỉ (nút mở Maps) + số điện thoại (nút gọi) + tin nhắn ("message" button để mở vào cuộc trò chuyện)
-- [ ] Lịch làm việc
-- [ ] Phần Giới thiệu (About)
-- [ ] Gallery ảnh (cuộn ngang + xem tất cả)
-- [ ] Reviews: tóm tắt rating + 3 review gần nhất
-- [ ] Section "You May Also Like" (đề xuất tương tự)
-- [ ] Form đánh giá & viết review
+- [x] Primary image
+- [x] Thông tin: tên, rating, số review, khoảng cách, danh mục
+- [x] Địa chỉ (nút mở Maps) + số điện thoại (nút gọi) + tin nhắn ("message" button để mở vào cuộc trò chuyện)
+- [x] Lịch làm việc
+- [x] Phần Giới thiệu (About)
+- [x] Gallery ảnh (cuộn ngang + xem tất cả)
+- [x] Reviews: tóm tắt rating + 3 review gần nhất
+- [x] Section "You May Also Like" (đề xuất tương tự)
+- [x] Form đánh giá & viết review
 
 #### 3.2 AllReviewsScreen
-- [ ] Toàn bộ reviews của doanh nghiệp
-- [ ] FlatList với performance optimization
+- [x] Toàn bộ reviews của doanh nghiệp
 
 #### 3.3 RateAndReviewSection
-- [ ] Chọn số sao (1-5)
-- [ ] Nhập nội dung review
-- [ ] Upload ảnh/video
-- [ ] Submit review
+- [x] Chọn số sao (1-5)
+- [x] Nhập nội dung review
+- [x] Upload ảnh/video
+- [x] Submit review
 
 #### 3.4 ViewAllPhotoScreen
-- [ ] Gallery fullscreen của doanh nghiệp
-- [ ] Hỗ trợ zoom ảnh
+- [x] Gallery fullscreen của doanh nghiệp
+- [x] Hỗ trợ zoom ảnh
 
 ---
 
 ### 4. Provider - Màn hình chính
 
 #### 4.1 ProviderHomeScreen (Dashboard)
-- [ ] ServiceCard: thông tin doanh nghiệp + trạng thái
-- [ ] LastMessagesSection: tin nhắn gần đây từ khách hàng
-- [ ] Competitors near you: đề xuất doanh nghiệp đối thủ cùng ngành (provider đã và đang đăng ký business)
-- [ ] Businesses near you: đề xuất doanh nghiệp gần đây (provider chưa đăng ký business)
+- [x] ServiceCard: thông tin doanh nghiệp + trạng thái
+- [x] LastMessagesSection: tin nhắn gần đây từ khách hàng
+- [x] Competitors near you: đề xuất doanh nghiệp đối thủ cùng ngành (provider đã và đang đăng ký business)
+- [x] Businesses near you: đề xuất doanh nghiệp gần đây (provider chưa đăng ký business)
 
 #### 4.2 BusinessRegisterScreen
-- [ ] Section 1 - Profile: Tên doanh nghiệp + upload avatar
+- [x] Section 1 - Profile: Tên doanh nghiệp + upload avatar
 - [ ] Section 2 - Rejection Notice: Hiển thị lý do bị từ chối (nếu có)
-- [ ] Section 3 - Primary Contact: Số điện thoại, phương thức (Message/Call)
-- [ ] Section 4 - Address: Location picker modal (Google Places)
-- [ ] Section 5 - Schedule: Editor lịch làm việc từng ngày
-- [ ] Section 6 - About: Mô tả doanh nghiệp
-- [ ] Section 7 - Category: Chọn ngành / danh mục
-- [ ] Section 8 - Photos: Upload ảnh gallery
+- [x] Section 3 - Primary Contact: Số điện thoại, phương thức (Message/Call)
+- [x] Section 4 - Address: Location picker modal (Google Places)
+- [x] Section 5 - Schedule: Editor lịch làm việc từng ngày
+- [x] Section 6 - About: Mô tả doanh nghiệp
+- [x] Section 7 - Category: Chọn ngành / danh mục
+- [x] Section 8 - Photos: Upload ảnh gallery
 
 #### 4.3 EditBusinessWorkingHoursScreen
-- [ ] Chỉnh sửa lịch làm việc từng ngày trong tuần
-- [ ] Time picker modal
-- [ ] Toggle mở/đóng từng ngày
+- [x] Chỉnh sửa lịch làm việc từng ngày trong tuần
+- [x] Time picker modal
+- [x] Toggle mở/đóng từng ngày
 
 #### 4.4 ProfileScreen (Provider)
-- [ ] Hiển thị tên doanh nghiệp & thông tin chủ sở hữu
-- [ ] **Visibility Status** - Bật/tắt hiển thị doanh nghiệp
+- [x] Hiển thị tên doanh nghiệp & thông tin chủ sở hữu
+- [x] **Visibility Status** - Bật/tắt hiển thị doanh nghiệp
 
 ---
 
 ### 5. Browse & Discovery
 
-- [ ] **AllCategoriesScreen** - Grid/list tất cả danh mục dịch vụ
-- [ ] **CategoryDetailScreen** - Doanh nghiệp trong một danh mục + filter & sort
-- [ ] **AllPopularNowScreen** - Danh sách đầy đủ doanh nghiệp nổi bật
-- [ ] **YouMayAlsoLikeScreen** - Đề xuất doanh nghiệp tương tự
+- [x] **AllCategoriesScreen** - Grid/list tất cả danh mục dịch vụ
+- [x] **CategoryDetailScreen** - Doanh nghiệp trong một danh mục + filter & sort
+- [x] **AllPopularNowScreen** - Danh sách đầy đủ doanh nghiệp nổi bật
+- [x] **YouMayAlsoLikeScreen** - Đề xuất doanh nghiệp tương tự
 
 ---
 
 ### 6. Settings & Notifications
 
-- [ ] **AccountSettingScreen** - Chỉnh sửa tên, xóa tài khoản
-- [ ] **PasswordSettingsScreen** - Đổi mật khẩu (xác minh mật khẩu hiện tại)
-- [ ] **NotificationPreferencesScreen** - Toggle email & push notifications
-- [ ] **VisibilityStatusScreen** - Bật/tắt trạng thái hiển thị (Provider)
-- [ ] **HelpSupportScreen** - FAQ với collapsible items
-- [ ] **TermsPrivacyScreen** - WebView Terms & Privacy Policy
-- [ ] **NotificationScreen** - Danh sách thông báo + "Mark All as Read"
+- [x] **AccountSettingScreen** - Chỉnh sửa tên, xóa tài khoản
+- [x] **PasswordSettingsScreen** - Đổi mật khẩu (xác minh mật khẩu hiện tại)
+- [x] **NotificationPreferencesScreen** - Toggle email & push notifications
+- [x] **VisibilityStatusScreen** - Bật/tắt trạng thái hiển thị (Provider)
+- [x] **HelpSupportScreen** - FAQ với collapsible items
+- [x] **TermsPrivacyScreen** - WebView Terms & Privacy Policy
+- [x] **NotificationScreen** - Danh sách thông báo + "Mark All as Read"
 
 ---
 
@@ -171,130 +170,114 @@
 
 ### 7. Authentication & Authorization
 
-- [ ] **Login** - Đăng nhập bằng email or Username/password
-- [ ] **Logout** - Đăng xuất và xóa session
-- [ ] **JWT Authentication** - Xác thực bằng token
-- [ ] **Protected Routes** - AuthGuard bảo vệ các route
-- [ ] **Auto Token Refresh** - Tự động refresh token khi hết hạn
-- [ ] **Session Management** - Quản lý session bằng cookies
+- [x] **Login** - Đăng nhập bằng email or Username/password
+- [x] **Logout** - Đăng xuất và xóa session
+- [x] **JWT Authentication** - Xác thực bằng token
+- [x] **Protected Routes** - AuthGuard bảo vệ các route
+- [x] **Auto Token Refresh** - Tự động refresh token khi hết hạn
+- [x] **Session Management** - Quản lý session bằng cookies
 
 ---
 
 ### 8. Dashboard Overview
 
 #### 8.1 Metrics Display
-- [ ] Tổng số người dùng (Total Users)
-- [ ] Tổng số doanh nghiệp (Total Businesses)
-- [ ] Tổng số lượt tìm kiếm (Total Searches)
-- [ ] Số người dùng đang hoạt động (Active Users)
-- [ ] Real-time data refresh
+- [x] Tổng số người dùng (Total Users)
+- [x] Tổng số doanh nghiệp (Total Businesses)
+- [x] Số doanh nghiệp đang chờ approve
 
 #### 8.2 Popular Searches Analytics
-- [ ] Danh sách từ khóa tìm kiếm phổ biến
-- [ ] Số lượt tìm kiếm mỗi từ khóa
-- [ ] Số kết quả trả về mỗi từ khóa
-- [ ] Sắp xếp theo cột (term, searches, results)
-- [ ] Chọn số mục mỗi trang (10, 20, 50, 100)
-- [ ] Tìm kiếm trong kết quả
-- [ ] Phân trang
+- [x] Danh sách từ khóa tìm kiếm phổ biến
+- [x] Số lượt tìm kiếm mỗi từ khóa
+- [x] Số kết quả trả về mỗi từ khóa
+- [x] Phân trang
 
 ---
 
 ### 9. Notifications Management
 
 #### 9.1 Tạo thông báo mới
-- [ ] Nhập tiêu đề thông báo
-- [ ] Nhập nội dung chi tiết
-- [ ] Chọn đối tượng nhận (All, Businesses, Customers, Providers)
-- [ ] Chọn địa điểm mục tiêu
-- [ ] Chọn nhiều địa điểm cùng lúc
-- [ ] Validation form
+- [x] Nhập tiêu đề thông báo
+- [x] Nhập nội dung chi tiết
+- [x] Chọn đối tượng nhận (All, Businesses, Customers, Providers)
+- [x] Chọn địa điểm mục tiêu (đối tượng là businesses)
+- [x] Chọn tất cả địa điểm hoặc một địa điểm cụ thể
+- [x] Validation form
 - [ ] Hiển thị kết quả thành công/thất bại
 
 #### 9.2 Danh sách thông báo
-- [ ] Bảng xem tất cả thông báo
-- [ ] Lọc theo tab (All, Businesses, Customers, Providers)
-- [ ] Tìm kiếm theo tiêu đề hoặc nội dung
-- [ ] Sắp xếp theo cột
-- [ ] Hành động Archive thông báo
-- [ ] Phân trang + chọn số mục/trang
-- [ ] Cập nhật real-time
-- [ ] Empty state khi không có dữ liệu
+- [x] Bảng xem tất cả thông báo
+- [x] Lọc theo tab (All, Businesses, Customers, Providers)
+- [x] Tìm kiếm theo tiêu đề hoặc nội dung
+- [x] Sắp xếp theo ngày tạo
+- [x] Hành động Archive thông báo
+- [x] Phân trang
+- [x] Empty state khi không có dữ liệu
 
 #### 9.3 Chi tiết thông báo
-- [ ] Thời gian gửi
-- [ ] Badge loại đối tượng nhận
-- [ ] Thông tin địa điểm mục tiêu
-- [ ] Trạng thái thông báo
+- [x] Thời gian gửi
+- [x] Trạng thái thông báo
 
 ---
 
 ### 10. Users Management
 
 #### 10.1 Quản lý Businesses
-- [ ] Bảng xem tất cả doanh nghiệp
-- [ ] Tìm kiếm theo tên hoặc ID
-- [ ] Sắp xếp theo cột (tên, ID, Category, Rating, Ngày đăng ký, trạng thái)
-- [ ] Lọc theo trạng thái
-- [ ] Expandable rows xem chi tiết
-- [ ] Phân trang + chọn số mục/trang
-- [ ] Cập nhật real-time
-- [ ] Empty state
-- [ ] Toggle Active/Inactive + confirmation dialog
-- [ ] Optimistic UI + rollback khi lỗi
-- [ ] Xem tổng số reviews (clickable)
-- [ ] Thời gian hoạt động cuối cùng
+- [x] Bảng xem tất cả doanh nghiệp
+- [x] Tìm kiếm theo tên hoặc ID
+- [x] Sắp xếp theo cột (tên, ID, Category, Rating, Ngày đăng ký, trạng thái)
+- [x] Lọc theo trạng thái
+- [x] Expandable rows xem chi tiết
+- [x] Phân trang + chọn số mục/trang
+- [x] Empty state
+- [x] Toggle Active/Suspend + confirmation dialog
+- [x] Optimistic UI + rollback khi lỗi
+- [x] Xem tổng số reviews (clickable)
 
 #### 10.2 Business Reviews (Modal)
-- [ ] Xem tất cả reviews của doanh nghiệp
-- [ ] Nội dung review (text, ảnh, video)
-- [ ] Thông tin người đánh giá (tên, avatar)
-- [ ] Hiển thị rating
-- [ ] Ngày/giờ review
-- [ ] Preview media + lightbox fullscreen
-- [ ] Xóa review + confirmation modal
-- [ ] Phân trang reviews
-- [ ] Empty state
+- [x] Xem tất cả reviews của doanh nghiệp
+- [x] Nội dung review (text, ảnh, video)
+- [x] Thông tin người đánh giá (tên, avatar)
+- [x] Hiển thị rating
+- [x] Preview media + lightbox fullscreen
+- [x] Xóa review + confirmation modal
+- [x] Infinite scroll
+- [x] Empty state
 
-<!-- TODO: Will countinue edit from here-->
 #### 10.3 Business Metrics
-- [ ] Tổng số doanh nghiệp
-- [ ] Số doanh nghiệp đang hoạt động
-- [ ] Số doanh nghiệp không hoạt động
-- [ ] Số doanh nghiệp mới trong tháng
+- [x] Tổng số doanh nghiệp
+- [x] Số doanh nghiệp đang hoạt động
+- [x] Số doanh nghiệp không hoạt động
 
 #### 10.4 Export Businesses
-- [ ] Xuất dữ liệu ra CSV
-- [ ] Chọn khoảng thời gian (date range picker)
-- [ ] Validation khoảng thời gian
-- [ ] Download có xác thực
+- [x] Xuất dữ liệu ra CSV
+- [x] Chọn khoảng thời gian (date range picker)
+- [x] Validation khoảng thời gian
+- [x] Download có xác thực
 
 #### 10.5 Quản lý Customers
-- [ ] Bảng xem tất cả khách hàng
-- [ ] Tìm kiếm theo tên hoặc email
-- [ ] Sắp xếp theo cột (ID, tên, email, trạng thái, ngày)
-- [ ] Lọc theo trạng thái
-- [ ] Phân trang + chọn số mục/trang
-- [ ] Cập nhật real-time
-- [ ] Empty state
-- [ ] Chọn trạng thái (Active/Inactive/Suspended) với popover UI
-- [ ] Confirmation trước khi thay đổi
-- [ ] Optimistic UI + rollback khi lỗi
+- [x] Bảng xem tất cả khách hàng
+- [x] Tìm kiếm theo tên hoặc email
+- [x] Sắp xếp theo cột (ID, tên, email, trạng thái, ngày)
+- [x] Phân trang + chọn số mục/trang
+- [x] Empty state
+- [x] Chọn trạng thái (Active/Suspended) với popover UI
+- [x] Confirmation trước khi thay đổi
+- [x] Optimistic UI + rollback khi lỗi
 
 #### 10.6 Customer Metrics
-- [ ] Tổng số khách hàng
-- [ ] Số khách hàng đang hoạt động
+- [x] Tổng số khách hàng
+- [x] Số khách hàng đang hoạt động
 - [ ] Số khách hàng không hoạt động
 - [ ] Số khách hàng mới trong tháng
 
 #### 10.7 Export Customers
-- [ ] Xuất dữ liệu ra CSV
-- [ ] Chọn khoảng thời gian
-- [ ] Validation khoảng thời gian
-- [ ] Download có xác thực
+- [x] Xuất dữ liệu ra CSV
+- [x] Chọn khoảng thời gian
+- [x] Validation khoảng thời gian
 
 #### 10.8 Navigation Users
-- [ ] Tab chuyển đổi giữa Businesses và Customers
+- [x] Tab chuyển đổi giữa Businesses và Customers
 - [ ] Highlight tab đang active
 - [ ] Header dùng chung cho cả 2 tab
 
@@ -303,38 +286,36 @@
 ### 11. Verification Module
 
 #### 11.1 Danh sách doanh nghiệp cần duyệt
-- [ ] Bảng xem tất cả doanh nghiệp chờ duyệt
-- [ ] Lọc theo tab (All, Pending, Approved, Rejected)
-- [ ] Hiển thị số lượng ở mỗi tab
-- [ ] Tìm kiếm theo tên doanh nghiệp
-- [ ] Sắp xếp theo cột
-- [ ] Phân trang + chọn số mục/trang
-- [ ] Cập nhật real-time
-- [ ] Empty state
+- [x] Bảng xem tất cả doanh nghiệp chờ duyệt
+- [x] Lọc theo tab (All, Pending, Approved, Rejected)
+- [x] Hiển thị số lượng ở mỗi tab
+- [x] Tìm kiếm theo tên doanh nghiệp
+- [x] Sắp xếp theo cột
+- [x] Phân trang + chọn số mục/trang
+- [x] Cập nhật real-time
+- [x] Empty state
 
 #### 11.2 Modal xem thông tin doanh nghiệp
-- [ ] Tên doanh nghiệp
-- [ ] Mô tả doanh nghiệp
-- [ ] Thông tin liên hệ
-- [ ] Preview ảnh/media
-- [ ] Preview tài liệu
-- [ ] Thông tin chủ sở hữu
-- [ ] Ngày nộp đơn
-- [ ] Trạng thái hiện tại
+- [x] Tên doanh nghiệp
+- [x] Mô tả doanh nghiệp
+- [x] Thông tin liên hệ
+- [x] Preview ảnh/media
+- [x] Preview tài liệu
+- [x] Thông tin chủ sở hữu
+- [x] Ngày nộp đơn
+- [x] Trạng thái hiện tại
 
 #### 11.3 Hành động duyệt/từ chối
-- [ ] Nút Approve doanh nghiệp
-- [ ] Nút Reject doanh nghiệp
-- [ ] Confirmation dialog trước khi thực hiện
-- [ ] Loading state trong khi xử lý
-- [ ] Feedback thành công/thất bại
-- [ ] Optimistic UI + rollback khi lỗi
+- [x] Nút Approve doanh nghiệp
+- [x] Nút Reject doanh nghiệp
+- [x] Confirmation dialog trước khi thực hiện
+- [x] Loading state trong khi xử lý
+- [x] Feedback thành công/thất bại
 
 #### 11.4 Hiển thị trạng thái duyệt
-- [ ] Badge "Pending" (màu vàng)
-- [ ] Badge "Approved" (màu xanh)
-- [ ] Badge "Rejected" (màu đỏ)
-- [ ] Color-coded status indicators
+- [x] Badge "Pending" (màu vàng)
+- [x] Badge "Approved" (màu xanh)
+- [x] Badge "Rejected" (màu đỏ)
 
 ---
 
