@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772547313899,
+  "lastScanned": 1773329027222,
   "projectRoot": "/Users/triet/Desktop/Code/Ne/Yello",
   "techStack": {
     "languages": [],
@@ -37,46 +37,42 @@
     "docs": {
       "path": "docs",
       "purpose": "Documentation",
-      "fileCount": 4,
-      "lastAccessed": 1772547313837,
+      "fileCount": 5,
+      "lastAccessed": 1773329027187,
       "keyFiles": [
         "FEATURES_CHECKLIST.md",
         "MVP_CHECKLIST.md",
+        "MVP_CHECKLIST_ENG.md",
         "PROJECT_SUMMARY.md",
         "qa-workflow.md"
       ]
+    },
+    "history": {
+      "path": "history",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1773329027189,
+      "keyFiles": []
     },
     "sprints": {
       "path": "sprints",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1772547313837,
+      "lastAccessed": 1773329027191,
       "keyFiles": []
     }
   },
   "hotPaths": [
     {
-      "path": "CLAUDE.md",
-      "accessCount": 2,
-      "lastAccessed": 1772588693930,
+      "path": "history/2026-03-11/report.md",
+      "accessCount": 1,
+      "lastAccessed": 1773329237014,
       "type": "file"
     },
     {
-      "path": "history/2026-03-03-daily-report/report.md",
+      "path": "history/2026-03-12/report.md",
       "accessCount": 1,
-      "lastAccessed": 1772551465396,
-      "type": "file"
-    },
-    {
-      "path": "history/2026-03-03-daily-goals/report.md",
-      "accessCount": 1,
-      "lastAccessed": 1772551827450,
-      "type": "file"
-    },
-    {
-      "path": ".claude/skills/save-daily/SKILL.md",
-      "accessCount": 1,
-      "lastAccessed": 1772588661755,
+      "lastAccessed": 1773329690131,
       "type": "file"
     }
   ],

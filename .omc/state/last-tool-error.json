@@ -1,7 +1,7 @@
 {
-  "tool_name": "mcp__figma-desktop__get_metadata",
-  "tool_input_preview": "{\"nodeId\":\"2003-55372\",\"clientLanguages\":\"unknown\",\"clientFrameworks\":\"web\"}",
-  "error": "No node could be found for the provided nodeId: 2003:55372. Make sure the Figma desktop app is open and the document containing the node is the active tab.",
-  "timestamp": "2026-03-01T09:31:25.503Z",
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/triet/.claude/projects/-Users-triet-Desktop-Code-Ne-Yello/memory/MEMORY.md\"}",
+  "error": "File does not exist. Note: your current working directory is /Users/triet/Desktop/Code/Ne/Yello.",
+  "timestamp": "2026-03-12T15:26:28.215Z",
   "retry_count": 1
 }
